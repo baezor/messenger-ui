@@ -15,7 +15,7 @@ export default {
   width 320px
   min-height 120px
   background-color #cccccc
-  border-radius 1.5em
+  border-radius 1.32em
   overflow hidden
 
 </style>

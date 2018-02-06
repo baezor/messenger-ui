@@ -1,12 +1,17 @@
-<template>
-  <div class="Header">
-    <h1>Messenger UI</h1>
-    <p>Messenger UI components made with Vue.js</p>
-  </div>
-</template>
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  data(){
+    return {
+      blogTitle: 'This is a simple message'
+    }
+  },
+  mounted(){
+    console.log('it is mounted')
+  },
+  render(createElement){
+    return createElement('h1', this.blogTitle)
+  }
 }
 </script>
 <style lang="stylus">

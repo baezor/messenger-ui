@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header/>
-    <conversation></conversation>
+    <Conversation/>
 
   </div>
 </template>
@@ -26,6 +26,7 @@ body {
   overflow hidden
   margin 0
   padding 0
+  font-size 14px
 }
 #app {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;

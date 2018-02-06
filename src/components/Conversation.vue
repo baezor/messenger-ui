@@ -38,6 +38,7 @@ export default {
 .conversation
   display flex
   align-items center
+  margin 10px 0
 
 .bot-avatar
   width 36px

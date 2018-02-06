@@ -15,4 +15,10 @@ export default {
   }
 }
 </script>
-
+<style lang="stylus">
+.quick-reply
+  background-color #cccccc
+  border-radius 1.3em
+  overflow hidden
+  padding 10px 15px
+</style>
