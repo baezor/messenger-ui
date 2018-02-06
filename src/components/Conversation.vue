@@ -12,7 +12,9 @@
           <div class="bot-avatar">
             <img src="../assets/logo.png" alt="Bot Image">
           </div>
-        <quick-reply>This is a quick reply</quick-reply>
+        <generic-template>
+
+        </generic-template>
       </div>
     
     </div>
@@ -20,11 +22,13 @@
 
 <script>
 import QuickReply from './Replies/QuickReply'
+import GenericTemplate from './GenericTemplate'
 
 export default {
   name: 'conversation',
   components: {
-    QuickReply
+    QuickReply,
+    GenericTemplate
   }
 
 }
@@ -38,10 +42,12 @@ export default {
 .bot-avatar
   width 36px
   height 36px
+  margin 0 10px
   display inline-flex
   border-radius: 50%
   overflow hidden
   background-color #222
+  align-self flex-end
 
   img 
     width 100%
